@@ -1,5 +1,5 @@
 GPT-4接收的是图片/文本，输出的是文本
-
+reinforcement learning with human feedback
 
 
 
