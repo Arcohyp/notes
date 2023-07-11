@@ -4,3 +4,7 @@
 说白了就是edge/或者说chrome内核的浏览器没有添加证书，具体内容参考这个连接
 
   https://steampp.net/liunxSetupCer
+
+至于更多的可以参考这个连接
+
+  https://steampp.net/faq
