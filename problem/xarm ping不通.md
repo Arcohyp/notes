@@ -11,3 +11,4 @@ for /L %d in (1,1,255) do ping 192.168.1.%d >> C:\Users\XXX\Desktop\a.txt
 
 for /L %D in (1,1,255) do (ping 192.168.1.%D -n 1 && echo 192.168.1.%D >> C:\Users\XXX\Desktop\a.txt || echo 192.168.1.%D >> C:\Users\XXX\Desktop\b.txt)
 
+当前，206和220都已经被设置为正确的ip地址，207使用上述脚本并未能找到对应的ip地址
