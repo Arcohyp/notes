@@ -11,4 +11,9 @@ echo $ROS_PACKAGE_PATH /home/<username>/catkin_ws/src:/opt/ros/<distro>/share
 
 echo $ROS_PACKAGE_PATH /home/ros/catkin_ws/src:/opt/ros/noetic/share
 
+### sudo rosdep init website报错
+直接参考下面这个链接就行
+https://blog.csdn.net/weixin_42335881/article/details/119728301?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&utm_relevant_index=2
+
+https://www.bilibili.com/video/BV1Ci4y1L7ZZ?p=16&vd_source=bbca381483664de7941cac6af725c6df
 
