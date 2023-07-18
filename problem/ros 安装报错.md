@@ -19,3 +19,6 @@ https://blog.csdn.net/weixin_42335881/article/details/119728301?spm=1001.2101.30
 https://www.bilibili.com/video/BV1Ci4y1L7ZZ?p=16&vd_source=bbca381483664de7941cac6af725c6df
 
 https://gitee.com/zhao-xuzuo/rosdistro
+
+### ROS:ModuleNotFoundError: No module named ‘rospkg‘
+https://blog.csdn.net/qq_42995327/article/details/119357775
