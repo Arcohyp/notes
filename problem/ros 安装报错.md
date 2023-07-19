@@ -38,6 +38,9 @@ http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-z
 
     pip install pydot
 
+### 主要的操作可以參考這個
+http://www.autolabor.com.cn/book/ROSTutorials/chapter1/15-ben-zhang-xiao-jie/152-ji-suan-tu.html
+
 ### Helloworld
 C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要求来决定
 
