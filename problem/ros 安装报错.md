@@ -38,7 +38,9 @@ http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-z
 
     pip install pydot
 
-### 执行C++ Helloworld
+### Helloworld
+C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要求来决定
+
 分清，workspace,包名，和代码cpp的文件名很重要
 
     -workspace（比如catkin_ws）
