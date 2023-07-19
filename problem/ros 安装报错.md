@@ -49,6 +49,6 @@ http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-z
     ----include
     ----src
     -----文件名（比如helloworld,etc）.cpp
-    ----CMakeLists.txt
+    ----CMakeLists.txt（你要修改的是这个文件，很多注释的）
     ----package.xml
     ---CMakeLists.txt
