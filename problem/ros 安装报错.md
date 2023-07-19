@@ -26,10 +26,12 @@ https://blog.csdn.net/qq_42995327/article/details/119357775
     pip install catkin-tools rospkg pyyaml empy numpy
 
 如果不想污染base环境，可以重新构建一个ros环境
+
     conda create -n ros
     conda activate ros
     pip install catkin-tools rospkg pyyaml empy numpy
 
 此时还会报错少pydot，安装就行
+
     pip install pydot
 
