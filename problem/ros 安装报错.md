@@ -2,6 +2,7 @@
 https://blog.csdn.net/tanmx219/article/details/122765853
 
 替换catkin为这个
+
     catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 
 ### 创建ROS工作空间的时候的几个位置填什么
