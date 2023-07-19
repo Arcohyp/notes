@@ -17,6 +17,8 @@ https://blog.csdn.net/tanmx219/article/details/122765853
 
 博客解决方案：https://blog.csdn.net/weixin_42335881/article/details/119728301?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&utm_relevant_index=2
 
+http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-zhuang/124-an-zhuang-ros.html
+
 视频解决方案：https://www.bilibili.com/video/BV1Ci4y1L7ZZ?p=16&vd_source=bbca381483664de7941cac6af725c6df
 
 国内源：https://gitee.com/zhao-xuzuo/rosdistro
