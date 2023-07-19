@@ -12,7 +12,7 @@ https://blog.csdn.net/tanmx219/article/details/122765853
 
     echo $ROS_PACKAGE_PATH /home/ros/catkin_ws/src:/opt/ros/noetic/share
 
-### sudo rosdep init website报错
+### ROS报错:sudo rosdep init website
 直接参考下面这个链接就行：
 
 博客解决方案：https://blog.csdn.net/weixin_42335881/article/details/119728301?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-119728301-blog-120590026.235%5Ev38%5Epc_relevant_sort_base3&utm_relevant_index=2
