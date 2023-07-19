@@ -57,6 +57,7 @@ C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要
     ----package.xml
     ---CMakeLists.txt
 
+    # 以下是一個相對標準的文件系統
     WorkSpace --- 自定义的工作空间
     
         |--- build:编译空间，用于存放CMake和catkin的缓存信息、配置信息和其他中间文件。
