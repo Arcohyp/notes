@@ -2,14 +2,14 @@
 https://blog.csdn.net/tanmx219/article/details/122765853
 
 替换catkin为这个
-catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+    catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 
 ### 创建ROS工作空间的时候的几个位置填什么
-echo $ROS_PACKAGE_PATH /home/<username>/catkin_ws/src:/opt/ros/<distro>/share
+    echo $ROS_PACKAGE_PATH /home/<username>/catkin_ws/src:/opt/ros/<distro>/share
 
 这个distro其实是版本，你可以在桌面开terminal，cd /，ls，就能看到opt文件了，进入找就可以
 
-echo $ROS_PACKAGE_PATH /home/ros/catkin_ws/src:/opt/ros/noetic/share
+    echo $ROS_PACKAGE_PATH /home/ros/catkin_ws/src:/opt/ros/noetic/share
 
 ### sudo rosdep init website报错
 直接参考下面这个链接就行：
@@ -22,3 +22,14 @@ https://gitee.com/zhao-xuzuo/rosdistro
 
 ### ROS:ModuleNotFoundError: No module named ‘rospkg‘
 https://blog.csdn.net/qq_42995327/article/details/119357775
+
+    pip install catkin-tools rospkg pyyaml empy numpy
+
+如果不想污染base环境，可以重新构建一个ros环境
+    conda create -n ros
+    conda activate ros
+    pip install catkin-tools rospkg pyyaml empy numpy
+
+此时还会报错少pydot，安装就行
+    pip install pydot
+
