@@ -22,7 +22,7 @@ https://blog.csdn.net/tanmx219/article/details/122765853
 国内源：https://gitee.com/zhao-xuzuo/rosdistro
 
 ### ROS:ModuleNotFoundError: No module named ‘rospkg‘
-https://blog.csdn.net/qq_42995327/article/details/119357775
+采用方法1：https://blog.csdn.net/qq_42995327/article/details/119357775
 
     pip install catkin-tools rospkg pyyaml empy numpy
 
