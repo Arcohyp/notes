@@ -40,14 +40,14 @@ http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-z
 
 ### 执行C++ Helloworld
 分清，workspace,包名，和代码cpp的文件名很重要
--workspace（比如catkin_ws）
---build
---devel
---src
----你的包名(比如demo,etc)
-----include
-----src
------文件名（比如helloworld,etc）.cpp
-----CMakeLists.txt
-----package.xml
----CMakeLists.txt
+    -workspace（比如catkin_ws）
+    --build
+    --devel
+    --src
+    ---你的包名(比如demo,etc)
+    ----include
+    ----src
+    -----文件名（比如helloworld,etc）.cpp
+    ----CMakeLists.txt
+    ----package.xml
+    ---CMakeLists.txt
