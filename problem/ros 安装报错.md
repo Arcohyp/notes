@@ -51,6 +51,8 @@ C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要
     ----include
     ----src
     -----文件名（比如helloworld,etc）.cpp
+    ----scripts
+    -----文件名（比如helloworld,etc）.py
     ----CMakeLists.txt（你要修改的是这个文件，很多注释的）
     ----package.xml
     ---CMakeLists.txt
