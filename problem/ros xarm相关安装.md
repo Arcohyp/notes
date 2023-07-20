@@ -1,4 +1,6 @@
 http://wiki.ros.org/xarm
 记得换成noetic
 
-两个依赖包都在站内找，下下来解压
+两个依赖包都在站内找，搜索xarm的前两个，下下来解压
+
+官方教程里面的有个安装包是这个链接：https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins
