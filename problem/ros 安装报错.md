@@ -97,3 +97,5 @@ C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要
 
 ### 4.报错：could not contact ROS master at......
 https://blog.csdn.net/qyt_722/article/details/118416152
+
+使用方法1，需要先输入roscore才行
