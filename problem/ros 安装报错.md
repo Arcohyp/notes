@@ -93,3 +93,7 @@ C++和python类似，代码文件具体位置按照CMakeLists.txt内编写的要
                 |-- config 配置信息
     
             |-- CMakeLists.txt: 编译的基本配置
+
+
+### 4.报错：could not contact ROS master at......
+https://blog.csdn.net/qyt_722/article/details/118416152
