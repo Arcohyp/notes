@@ -8,5 +8,4 @@ http://wiki.ros.org/xarm
 教程：https://github.com/mintar/mimic_joint_gazebo_tutorial
 
 
-launch文件中param、rosparam以及arg之间的区别
-https://blog.csdn.net/weixin_45777375/article/details/109445591
+launch文件中param、rosparam以及arg之间的区别: https://blog.csdn.net/weixin_45777375/article/details/109445591
