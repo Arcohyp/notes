@@ -9,3 +9,5 @@ http://wiki.ros.org/xarm
 
 
 launch文件中param、rosparam以及arg之间的区别: https://blog.csdn.net/weixin_45777375/article/details/109445591
+
+
