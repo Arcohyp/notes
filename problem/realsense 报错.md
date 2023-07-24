@@ -1,5 +1,7 @@
 https://blog.csdn.net/qq_33419535/article/details/88547498
 
+https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md
+
 ### 更新系统的时候会出现的问题 
     sudo upgrade-grub
     sudo reboot
