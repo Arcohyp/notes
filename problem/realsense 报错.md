@@ -45,6 +45,9 @@ hunks FAILED -- saving rejects to file
 
 执行sudo make uninstall && make clean && make && sudo make install 会出现逆天git clone，没办法，翻出去再尝试吧
 
+### hand_eye
+https://blog.csdn.net/miss_future/article/details/111826016
+
 rosdep 需要 ros环境
 
     pip install transforms3d
@@ -52,3 +55,6 @@ rosdep 需要 ros环境
     pip install empy
     pip install pyyaml
 
+【解决问题】RLException: [xx.launch] is neither a launch file in package [x] nor is [x] a launch file name
+
+https://blog.csdn.net/weixin_44436677/article/details/106442240
