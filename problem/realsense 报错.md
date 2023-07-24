@@ -1,6 +1,7 @@
 https://blog.csdn.net/qq_33419535/article/details/88547498
+https://www.jianshu.com/p/fb5920af58aa
 
-https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md
+官方文档：https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md
 
 ### 更新系统的时候会出现的问题 
     sudo upgrade-grub
@@ -33,4 +34,10 @@ https://blog.csdn.net/avatar_2009/article/details/116233098
 
 hunks FAILED -- saving rejects to file
 
-输入 n就行
+输入 n就行：https://blog.csdn.net/Q_AN1314/article/details/100521766
+
+    sudo dmesg | tail -n 50
+
+执行上面这个语句的时候，需要把摄像头接到电脑上面才行
+
+
