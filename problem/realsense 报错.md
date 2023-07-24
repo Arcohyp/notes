@@ -28,3 +28,9 @@ https://blog.csdn.net/avatar_2009/article/details/116233098
     sudo apt-get install (上面的这个需要支持的包裹)
 
 重启电脑，就可以了
+
+【已解决】打patch补丁时出错：Reversed (or previously applied) patch detected! Assume -R? [n]
+
+hunks FAILED -- saving rejects to file
+
+输入 n就行
