@@ -43,4 +43,6 @@ hunks FAILED -- saving rejects to file
 
 执行上面这个语句的时候，需要把摄像头接到电脑上面才行
 
+执行sudo make uninstall && make clean && make && sudo make install 会出现逆天git clone，没办法，翻出去再尝试吧
+
 
