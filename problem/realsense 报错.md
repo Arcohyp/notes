@@ -45,4 +45,10 @@ hunks FAILED -- saving rejects to file
 
 执行sudo make uninstall && make clean && make && sudo make install 会出现逆天git clone，没办法，翻出去再尝试吧
 
+rosdep 需要 ros环境
+
+    pip install transforms3d
+    pip install catkin_pkg
+    pip install empy
+    pip install pyyaml
 
