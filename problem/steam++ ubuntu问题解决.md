@@ -7,6 +7,8 @@
 
 https://steampp.net/liunxSetupCer
 
+注意：使用下面的这些修改之前，请用“系统代理”模式开一次，不然找不到下面这个文件
+
   Steam 信任证书 ( Chrome 内核浏览器 )
   由于 Steam 使用 Chrome 内核浏览器，使用自管理证书库。
   需要使用 Chrome 打开 设置 - 隐私设置和安全性 - 安全 - 管理证书
