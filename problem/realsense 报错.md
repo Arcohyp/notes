@@ -65,3 +65,7 @@ https://github.com/IntelRealSense/librealsense/issues/5651
 比如想要跑这个代码：https://github.com/IntelRealSense/librealsense/tree/master/examples/hello-realsense#rs-hello-realsense-sample
     
     g++ rs-hello-world.cpp -o test -lrealsense2
+
+目前安装到这里报错
+
+https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
