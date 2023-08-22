@@ -58,3 +58,10 @@ rosdep 需要 ros环境
 【解决问题】RLException: [xx.launch] is neither a launch file in package [x] nor is [x] a launch file name
 
 https://blog.csdn.net/weixin_44436677/article/details/106442240
+
+### SDK中的example使用
+https://github.com/IntelRealSense/librealsense/issues/5651
+
+比如想要跑这个代码：https://github.com/IntelRealSense/librealsense/tree/master/examples/hello-realsense#rs-hello-realsense-sample
+    
+    g++ rs-hello-world.cpp -o test -lrealsense2
