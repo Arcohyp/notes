@@ -76,10 +76,15 @@ https://github.com/IntelRealSense/librealsense/issues/5651
 具体的报错信息如下：
 
 > Timestamp: 1692926219631.358154
+> 
 > Severity: Warn
+> 
 > Description: Multiple realsense udev-rules were found! :
+> 
 > 1:/etc/udev/rules.d/99-realsense-libusb.rules
+> 
 > 2: /lib/udev/rules.d/60-librealsense2-udev-rules.rules
+> 
 > Make sure to remove redundancies!
 
 我之前安装了librealsense2-dkms这个库，其实不必要的，使用以下语句删除：
@@ -94,18 +99,27 @@ https://github.com/IntelRealSense/librealsense/issues/5651
 此时打开realsense-viewer，会报出缺失错误：
 
 > Timestamp: 1692927374126.788086
+> 
 > Severity: Warn
+> 
 > Description: RealSense UDEV-Rules are missing!
-> UDEV-Rules permissions configuration 
+> 
+> UDEV-Rules permissions configuration
+> 
 > for RealSense devices.
 
 点开有2个选项，copy command之后粘贴可以发现以下信息：
 
 > Missing/outdated UDEV-Rules will cause 'Permissions Denied' errors
+> 
 > unless the application is running under 'sudo' (not recommended)
-> In case of Debians use: 
+> 
+> In case of Debians use:
+> 
 > sudo apt-get upgrade/install librealsense2-udev-rules
+> 
 > To manually install UDEV-Rules in terminal run:
+> 
 > $ sudo cp ~/.99-realsense-libusb.rules /etc/udev/rules.d/99-realsense-libusb.rules && sudo udevadm control --reload-rules && udevadm trigger
 
 直接使用最后一句解决问题：
