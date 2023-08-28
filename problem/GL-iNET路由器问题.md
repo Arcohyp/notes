@@ -5,6 +5,9 @@
   - **Key**: name of lab
   - **IP**: 192.168.8.1 
 - **GL-SFT1200**：两个lan，一个wan，wan可改成lan(2023.8.28已改)
+  - **SSID**： xarm_wifi/xarm_wifi_5G
+  - **Key**: name of lab
+  - **IP**: 192.168.1.1
 
 ## 1.主要解决的是重置之后访问不了后台的问题
 问题的本质：需要了解到GL-iNET路由器的内部有着OpenWRT的操作系统，这就使得它和普通的路由器有着不一样的操作
