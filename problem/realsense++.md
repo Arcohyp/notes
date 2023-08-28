@@ -1,3 +1,8 @@
+# 零、基础案例
+https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python/examples
+
+最主要的是案例2和案例3，一个是对实时图片的读取，另一个是利用实时图片和深度图，排除出背景（比如yolo的用法）
+
 # 一、+ yolov5案例(2023.8.25)
 https://github.com/Thinkin99/yolov5_d435i_detection
 
