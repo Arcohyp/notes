@@ -7,6 +7,8 @@ https://blog.csdn.net/Thinkin9/article/details/122913810
 本人使用ubuntu 20.04 + cpu的方式进行测试
 
 ### （1）pip install -r requirements的末尾报错
+(以下报错在没有创建新的虚拟环境的情况下，如果没有明确指定python版本也会出现该情况，即出现conda-meta而找不到bin等其他的安装包。如果执行以上的安装命令，实质是在base的基础上安装这些包)
+
 > ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 > 
 > google-cloud-storage 1.31.0 requires google-auth<2.0dev,>=1.11.0, but you have google-auth 2.22.0 which is incompatible.
