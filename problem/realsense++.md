@@ -16,6 +16,7 @@ https://blog.csdn.net/Thinkin9/article/details/122913810
 > google-api-core 1.25.1 requires google-auth<2.0dev,>=1.21.1, but you have google-auth 2.22.0 which is incompatible.
 
 - **解决方法**
+  
 安装这两个版本google-auth==1.35.0 google-auth-oauthlib==0.5.3
 
 ### （2）python rstest.py报错
@@ -30,6 +31,7 @@ https://blog.csdn.net/Thinkin9/article/details/122913810
 > numpy                         1.21.5
 
 - **解决方法**
+
 安装这个版本opencv-python 4.7.0.68
 
 ### <2> upsample报错没有recompute_scalse_factor
@@ -38,4 +40,5 @@ https://blog.csdn.net/Thinkin9/article/details/122913810
 https://blog.csdn.net/qq_40280673/article/details/125095353
 
 - **解决方法**
+
 直接修改上面的文件即可
