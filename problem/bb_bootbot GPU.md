@@ -1,6 +1,6 @@
 # Reporting errors of bb@nuc-bootbot
 
-This issue is still opening, I DO NOT know how to sovle it. Now I just list the points that I have already known.
+This issue is still opening, I have no idea of it, and I saw several people facing the same issue as me but no one reply. Now I just list the points that I have already known.
 
 ## Question: When using *rviz* or *rqt_tf_tree*, for example, terminal will show the errors as below:
     rviz
@@ -30,4 +30,3 @@ GPU is independent, but it binds to with CPU because CPU has a letter of ‘G’
 
     sudo lshw -C video
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2009-14-11.png)
-
