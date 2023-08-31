@@ -22,8 +22,7 @@ Here are three main clues, or keywords:
 
 - GPU is independent, but it binds to with CPU because CPU has a letter of ‘G’.
 
-
-    lspci -vnn | grep VGA
+        lspci -vnn | grep VGA
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-59-09.png)
 
     lscpu
