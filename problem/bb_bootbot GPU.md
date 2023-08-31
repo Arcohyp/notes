@@ -16,10 +16,15 @@ Here are three main clues, or keywords:
 >
 > Segmentation fault
 
+- GPU is ***[AMD/ATI] Polaris 22 [Radeon RX Vega M GL]***. 
+
+- CPU is ***i7-8705G CPU @ 3.10GHz*** and architecture is ***x86_64***.
+
+- GPU is independent, but it binds to with CPU because CPU has a letter of ‘G’.
+
+
     lspci -vnn | grep VGA
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-59-09.png)
-
-GPU is ***[AMD/ATI] Polaris 22 [Radeon RX Vega M GL]***. CPU is ***i7-8705G CPU @ 3.10GHz*** and architecture is ***x86_64***.
 
     lscpu
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-59-33.png)
