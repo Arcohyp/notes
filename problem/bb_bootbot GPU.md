@@ -2,9 +2,8 @@
 
 This issue is still opening, I have no idea of it, and I saw several people facing the same issue as me but no one reply. Now I just list the points that I have already known.
 
+This is a simple code of what is ***amdgpu_get_auth(1)***, and I list the whole code at the end.
 > https://lists.freedesktop.org/archives/dri-devel/2017-August/150839.html
-
-
 
 ## Question: When using *rviz* or *rqt_tf_tree*, for example, terminal will show the errors as below:
     rviz
