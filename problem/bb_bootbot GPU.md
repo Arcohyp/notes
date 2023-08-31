@@ -34,6 +34,8 @@ GPU is independent, but it binds to with CPU because CPU has a letter of ‘G’
     sudo lshw -C video
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2009-14-11.png)
 
+This is the whole code:
+
     On 22 January 2017 at 18:48, Emil Velikov <emil.l.velikov at gmail.com> wrote:
     > All one needs is to establish if dev->fd is the flink (primary/card)
     > node, rather than use DRM_IOCTL_GET_CLIENT to query the auth status.
