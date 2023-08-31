@@ -6,8 +6,20 @@ This issue is still opening, I DO NOT know how to sovle it. Now I just list the 
     rviz
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-57-21.png)
 
+Here are three main clues, or keywords:
+
+> screen 0 does not appear to be DRI2 capable
+>
+> screen 0 does not appear to be DRI2 capable
+> 
+> amdgpu_device_initialize: amdgpu_get_auth (1) failed (-1)
+>
+> Segmentation fault
+
     lspci -vnn | grep VGA
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-59-09.png)
+
+GPU is ***[AMD/ATI] Polaris 22 [Radeon RX Vega M GL]***. CPU is ***i7-8705G CPU @ 3.10GHz*** and architecture is ***x86_64***.
 
     lscpu
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-59-33.png)
