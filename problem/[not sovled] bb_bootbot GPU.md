@@ -9,6 +9,10 @@ Here is another ***error***:
 
 ** (gdmflexiserver:1759): WARNING **: Unable to create transient display: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.DisplayManager was not provided by any .service files.
 
+When restart lightdm:
+
+failed to open CK session: DBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Consolekit was not provided by any .service files.
+
 ## Question: When using *rviz* or *rqt_tf_tree*, for example, terminal will show the errors as below:
     rviz
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-57-21.png)
