@@ -5,6 +5,10 @@ This issue is still opening, I have no idea of it, and I saw several people faci
 This is a simple code of what is ***amdgpu_get_auth(1)***, and I list the whole code at the end.
 > https://lists.freedesktop.org/archives/dri-devel/2017-August/150839.html
 
+Here is another ***error***:
+
+** (gdmflexiserver:1759): WARNING **: Unable to create transient display: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.DisplayManager was not provided by any .service files.
+
 ## Question: When using *rviz* or *rqt_tf_tree*, for example, terminal will show the errors as below:
     rviz
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-57-21.png)
