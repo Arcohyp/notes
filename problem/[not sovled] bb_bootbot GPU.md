@@ -13,6 +13,22 @@ When restart lightdm:
 
 failed to open CK session: DBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Consolekit was not provided by any .service files.
 
+
+qt.qpa.screen: QXcbConnection: Could not connect to display
+Could not connect to any X display
+
+
+
+https://linux.zone/2337
+https://blog.csdn.net/lxyoucan/article/details/115760014
+https://blog.csdn.net/weixin_45990326/article/details/128955025
+
+# /etc/init.d
+https://blog.csdn.net/liaowenxiong/article/details/117083906
+
+# vim
+https://www.runoob.com/linux/linux-vim.html
+
 ## Question: When using *rviz* or *rqt_tf_tree*, for example, terminal will show the errors as below:
     rviz
 ![image](https://github.com/Arcohyp/notes/blob/main/problem/pic/Screenshot%20from%202023-08-31%2008-57-21.png)
