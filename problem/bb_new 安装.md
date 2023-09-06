@@ -1,12 +1,8 @@
-# 还原bb的软件运行环境
+# bb_new覆盖新的nuc
+intel nuc使用***F2***进入bios界面
 
-系统：ubuntu 18.04 LTS
+使用再生龙方式覆盖
 
-语言：简体中文
+注意！我在boot设置了U盘作为优先启动项，以后可以修改回本机硬盘启动
 
-> https://blog.csdn.net/haeasringnar/article/details/81809040?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
->
-> http://wiki.ros.org/cn/melodic/Installation/Ubuntu
 
-## 1.安装watt toolkits(steam++)
-  
