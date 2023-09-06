@@ -1,5 +1,5 @@
 # bb_new 复刻原版bb代码运行环境
-## 基本安装
+## 0.基本安装
 - 系统：Ubuntu 18.04 LTS
 - 基本软件：steam++，vscode，baiduwangpan，sogoupinyin
 
@@ -12,7 +12,7 @@
 - visp、visp_ros、vision_visp,前3命令
 > https://blog.csdn.net/qq_36104364/article/details/113192324
 
-## catkin_make 原版，安装所有依赖包
+## 1.catkin_make 原版，安装所有依赖包
 先删去build，直接catkin_make
 
 ### 已经安装sophus
@@ -51,15 +51,15 @@
 
 - ***catkin_make通过***
 
-## 尝试launch
+## 2.尝试launch
 	source ~/Desktop/catkin_ws/devel/setup.bash
 	roslaunch ~/Desktop/catkin_ws/src/arm/xarm_ros/xarm_planner/launch/xarm_planner_pick_place_real.launch
 
-## 报错The kinematics plugin (xarm_f) failed to load. Error: According to the loaded plugin descriptions the class trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin with base class type kinematics::KinematicsBase does not exist. Declared types are  cached_ik_kinematics_plugin/CachedKDLKinematicsPlugin cached_ik_kinematics_plugin/CachedSrvKinematicsPlugin kdl_kinematics_plugin/KDLKinematicsPlugin lma_kinematics_plugin/LMAKinematicsPlugin srv_kinematics_plugin/SrvKinematicsPlugin
+### 报错The kinematics plugin (xarm_f) failed to load. Error: According to the loaded plugin descriptions the class trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin with base class type kinematics::KinematicsBase does not exist. Declared types are  cached_ik_kinematics_plugin/CachedKDLKinematicsPlugin cached_ik_kinematics_plugin/CachedSrvKinematicsPlugin kdl_kinematics_plugin/KDLKinematicsPlugin lma_kinematics_plugin/LMAKinematicsPlugin srv_kinematics_plugin/SrvKinematicsPlugin
 
 	sudo apt-get install ros-melodic-trac-ik-kinematics-plugin
 
-## 报错
+### 报错
 Traceback (most recent call last):
   File "/home/bb_new/Desktop/catkin_ws/src/arm/easy_handeye/easy_handeye/scripts/publish.py", line 15, in <module>
     calib.from_file()
@@ -77,8 +77,7 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 
 	cp -r ~/Desktop/catkin_ws/src/arm/easy_handeye/calibrate_result/result/. ~/.ros/easy_handeye/
 
-
-## launch 
+### launch 
 将
 
 	source ~/Desktop/catkin_ws/devel/setup.bash
@@ -94,10 +93,12 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 
 **！！！注意！！！**
 
-当前bb_new已经出现不同版本迭代，原版本以镜像形式存储在外接硬盘当中
+当前bb_new已经出现不同版本分支，原版本以镜像形式存储在外接硬盘当中
 
-- **bb_new原版镜像**：外接硬盘
-- **版本1**：架子上的主机
-- **版本2**：nuc
+| 不同版本分支 | 所处主机、位置|
+| ------ | ------ |
+| **bb_new原版镜像** | 外接硬盘|
+| **版本1** | 架子上的主机 | 
+| **版本2** | nuc | 
 
 # 结束
