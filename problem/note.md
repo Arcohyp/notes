@@ -1,0 +1,101 @@
+# base
+steam++
+
+vscode
+
+baiduwangpan
+
+sogoupinyin
+
+> https://blog.csdn.net/yzf279533105/article/details/105101275
+
+前4命令 
+
+> https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97?lang=en-US
+
+一键安装ros，rosdep
+
+> https://blog.csdn.net/qq_36104364/article/details/113192324
+
+前3命令
+
+# catkin_make 原版，安装所有依赖包
+先删去build，直接catkin_make
+
+## 已经安装sophus
+
+## 已经安装这个ros-melodic-navigation
+> https://blog.csdn.net/cappuccino_0/article/details/120091021
+
+	sudo apt-get install ros-melodic-navigation
+
+## No package 'orocos-bfl' found
+	sudo apt-get install ros-melodic-bfl
+
+## Unable to find SuiteSparse
+	sudo apt-get install libsuitesparse-dev
+
+## Could not find libg2o!
+	sudo apt-get install ros-melodic-libg2o
+
+## ros编译出现moveit_visual_toolsConfig.cmake
+	sudo apt-get install ros-melodic-moveit-visual-tools
+
+## Could not find a package configuration file provided by "realsense2_camera"
+	sudo apt-get install ros-melodic-realsense2-camera
+
+### 不知道下面有用与否，也安装了
+### git 不了 libcurl 
+> https://blog.csdn.net/u012742444/article/details/120067772?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-120067772-blog-124400633.235%5Ev38%5Epc_relevant_sort&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-120067772-blog-124400633.235%5Ev38%5Epc_relevant_sort&utm_relevant_index=3
+
+### realsense-viewer可呼出
+
+## fatal error: pcap.h: No such file or directory
+	sudo apt-get install libpcap-dev
+
+## fatal error: xarm/wrapper/xarm_api.h: No such file or directory
+安装xarm c plus sdk
+
+进度 over 100
+
+## launch
+	source ~/Desktop/catkin_ws/devel/setup.bash
+	roslaunch ~/Desktop/catkin_ws/src/arm/xarm_ros/xarm_planner/launch/xarm_planner_pick_place_real.launch
+
+## 报错The kinematics plugin (xarm_f) failed to load. Error: According to the loaded plugin descriptions the class trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin with base class type kinematics::KinematicsBase does not exist. Declared types are  cached_ik_kinematics_plugin/CachedKDLKinematicsPlugin cached_ik_kinematics_plugin/CachedSrvKinematicsPlugin kdl_kinematics_plugin/KDLKinematicsPlugin lma_kinematics_plugin/LMAKinematicsPlugin srv_kinematics_plugin/SrvKinematicsPlugin
+
+	sudo apt-get install ros-melodic-trac-ik-kinematics-plugin
+
+## 报错
+Traceback (most recent call last):
+  File "/home/bb_new/Desktop/catkin_ws/src/arm/easy_handeye/easy_handeye/scripts/publish.py", line 15, in <module>
+    calib.from_file()
+  File "/home/bb_new/Desktop/catkin_ws/src/arm/easy_handeye/easy_handeye/src/easy_handeye/handeye_calibration.py", line 163, in from_file
+    with open(self.filename) as calib_file:
+IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xarm_b_real_calib_result_eye_on_hand.yaml'
+Traceback (most recent call last):
+  File "/home/bb_new/Desktop/catkin_ws/src/arm/easy_handeye/easy_handeye/scripts/publish.py", line 15, in <module>
+    calib.from_file()
+  File "/home/bb_new/Desktop/catkin_ws/src/arm/easy_handeye/easy_handeye/src/easy_handeye/handeye_calibration.py", line 163, in from_file
+    with open(self.filename) as calib_file:
+IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xarm_f_real_calib_result_eye_on_hand.yaml'
+
+两个错误其实一样的，没文件、或者文件存在但地址索引不正确
+
+	cp -r ~/Desktop/catkin_ws/src/arm/easy_handeye/calibrate_result/result/. ~/.ros/easy_handeye/
+
+
+## launch 
+将
+
+	source ~/Desktop/catkin_ws/devel/setup.bash
+加入到~/.bashrc最后，并立即
+
+	source ~/.bashrc
+
+可以直接执行
+	
+	roslaunch xarm_planner xarm_planner_pick_place_real.launch
+
+# 结束
+
