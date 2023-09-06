@@ -12,46 +12,46 @@
 - visp、visp_ros、vision_visp,前3命令
 > https://blog.csdn.net/qq_36104364/article/details/113192324
 
-# catkin_make 原版，安装所有依赖包
+## catkin_make 原版，安装所有依赖包
 先删去build，直接catkin_make
 
-## 已经安装sophus
+### 已经安装sophus
 
-## 已经安装这个ros-melodic-navigation
-> https://blog.csdn.net/cappuccino_0/article/details/120091021
-
+### 已经安装这个ros-melodic-navigation
 	sudo apt-get install ros-melodic-navigation
 
-## No package 'orocos-bfl' found
+### No package 'orocos-bfl' found
 	sudo apt-get install ros-melodic-bfl
 
-## Unable to find SuiteSparse
+### Unable to find SuiteSparse
 	sudo apt-get install libsuitesparse-dev
 
-## Could not find libg2o!
+### Could not find libg2o!
 	sudo apt-get install ros-melodic-libg2o
 
-## ros编译出现moveit_visual_toolsConfig.cmake
+### ros编译出现moveit_visual_toolsConfig.cmake
 	sudo apt-get install ros-melodic-moveit-visual-tools
 
-## Could not find a package configuration file provided by "realsense2_camera"
+### Could not find a package configuration file provided by "realsense2_camera"
 	sudo apt-get install ros-melodic-realsense2-camera
 
-### 不知道下面有用与否，也安装了
-### git 不了 libcurl 
+#### 不知道下面有用与否，也安装了
+安装realsense支持，参考另一篇
+
+##### git 不了 libcurl 
 > https://blog.csdn.net/u012742444/article/details/120067772?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-120067772-blog-124400633.235%5Ev38%5Epc_relevant_sort&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-120067772-blog-124400633.235%5Ev38%5Epc_relevant_sort&utm_relevant_index=3
 
-### realsense-viewer可呼出
+- ***realsense-viewer***可呼出
 
-## fatal error: pcap.h: No such file or directory
+### fatal error: pcap.h: No such file or directory
 	sudo apt-get install libpcap-dev
 
-## fatal error: xarm/wrapper/xarm_api.h: No such file or directory
+### fatal error: xarm/wrapper/xarm_api.h: No such file or directory
 安装xarm c plus sdk
 
-进度 over 100
+- ***catkin_make通过***
 
-## launch
+## 尝试launch
 	source ~/Desktop/catkin_ws/devel/setup.bash
 	roslaunch ~/Desktop/catkin_ws/src/arm/xarm_ros/xarm_planner/launch/xarm_planner_pick_place_real.launch
 
@@ -90,5 +90,14 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 	
 	roslaunch xarm_planner xarm_planner_pick_place_real.launch
 
-# 结束
+***【2023年9月6日】***
 
+**！！！注意！！！**
+
+当前bb_new已经出现不同版本迭代，原版本以镜像形式存储在外接硬盘当中
+
+- **bb_new原版镜像**：外接硬盘
+- **版本1**：架子上的主机
+- **版本2**：nuc
+
+# 结束
