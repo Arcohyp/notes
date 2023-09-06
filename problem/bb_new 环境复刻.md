@@ -99,6 +99,17 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 | ------ | ------ |
 | ***bb_new原版镜像*** | 外接硬盘|
 | ***版本1*** | 架子上的主机 | 
-| ***版本2*** | nuc | 
+| ***版本2*** | nuc11PHi7C | 
 
-# 结束
+# 环境配置结束
+
+## 3.bb_new覆盖新的nuc
+intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***进行选择
+
+使用再生龙方式覆盖
+
+## 覆盖后开机花屏解决方式
+> https://zhuanlan.zhihu.com/p/439088148
+>
+> https://askubuntu.com/questions/1024895/why-do-i-need-to-replace-quiet-splash-with-nomodeset
+
