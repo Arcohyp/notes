@@ -101,10 +101,10 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 | ***版本1*** | 架子上的主机 | 
 | ***版本2*** | nuc11PHi7C | 
 
-# 环境配置结束
+# 以上环境配置结束
 
 ## 3.bb_new覆盖新的nuc
-intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***进行选择
+intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***进行选择启动引导
 
 使用再生龙方式覆盖
 
@@ -113,3 +113,7 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 >
 > https://askubuntu.com/questions/1024895/why-do-i-need-to-replace-quiet-splash-with-nomodeset
 
+- GPU版本：GeForce RTX 2060/2060 Mobile
+- CPU版本：i7-1165G7
+
+# 以上迁移结束
