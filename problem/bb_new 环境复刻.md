@@ -1,23 +1,16 @@
-# base
-steam++
+# bb_new 复刻原版bb代码运行环境
+## 基本安装
+- 系统：Ubuntu 18.04 LTS
+- 基本软件：steam++，vscode，baiduwangpan，sogoupinyin
 
-vscode
-
-baiduwangpan
-
-sogoupinyin
-
+- vim，net-tools,etc 前4命令 
 > https://blog.csdn.net/yzf279533105/article/details/105101275
 
-前4命令 
-
+- 一键安装ros，rosdep
 > https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97?lang=en-US
 
-一键安装ros，rosdep
-
+- visp、visp_ros、vision_visp,前3命令
 > https://blog.csdn.net/qq_36104364/article/details/113192324
-
-前3命令
 
 # catkin_make 原版，安装所有依赖包
 先删去build，直接catkin_make
