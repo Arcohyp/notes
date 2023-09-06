@@ -97,8 +97,8 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 
 | 不同版本分支 | 所处主机、位置|
 | ------ | ------ |
-| **bb_new原版镜像** | 外接硬盘|
-| **版本1** | 架子上的主机 | 
-| **版本2** | nuc | 
+| ***bb_new原版镜像*** | 外接硬盘|
+| ***版本1*** | 架子上的主机 | 
+| ***版本2*** | nuc | 
 
 # 结束
