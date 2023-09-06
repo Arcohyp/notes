@@ -1,5 +1,7 @@
 # Reporting errors of bb@nuc-bootbot
 
+I re-create an environment for codes in https://github.com/Arcohyp/notes/blob/main/problem/bb_new%20%E7%8E%AF%E5%A2%83%E5%A4%8D%E5%88%BB.md#bb_new-%E5%A4%8D%E5%88%BB%E5%8E%9F%E7%89%88bb%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83
+
 This issue is still opening, I have no idea of it, and I saw several people facing the same issue as me but no one reply. Now I just list the points that I have already known.
 
 This is a simple code of what is ***amdgpu_get_auth(1)***, and I list the whole code at the end.
