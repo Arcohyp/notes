@@ -106,15 +106,18 @@ IOError: [Errno 2] No such file or directory: '/home/bb_new/.ros/easy_handeye/xa
 ## 3.bb_new覆盖新的nuc
 intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***进行选择启动引导
 
-使用再生龙方式覆盖
+### 使用再生龙方式覆盖
 > https://github.com/Arcohyp/notes/blob/main/problem/%E5%86%8D%E7%94%9F%E9%BE%99%E5%A4%87%E4%BB%BD%E7%B3%BB%E7%BB%9F.md#%E4%BD%BF%E7%94%A8%E5%86%8D%E7%94%9F%E9%BE%99%E5%A4%87%E4%BB%BDubuntu%E7%B3%BB%E7%BB%9F%E7%9B%98
 
-## 覆盖后开机花屏解决方式
+### 覆盖后开机花屏解决方式
 > https://zhuanlan.zhihu.com/p/439088148
 >
 > https://askubuntu.com/questions/1024895/why-do-i-need-to-replace-quiet-splash-with-nomodeset
 
-- GPU版本：GeForce RTX 2060/2060 Mobile
+- GPU版本：GeForce RTX 2060 Mobile（notebook）
 - CPU版本：i7-1165G7
 
 # 以上迁移结束
+
+## 4. 安装显卡驱动
+> https://zhuanlan.zhihu.com/p/463656273
