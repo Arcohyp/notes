@@ -120,4 +120,6 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 # 以上迁移结束
 
 ## 4. 安装显卡驱动
+> https://www.nvidia.cn/geforce/drivers/
+> 
 > https://zhuanlan.zhihu.com/p/463656273
