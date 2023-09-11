@@ -1,5 +1,12 @@
 # Clash for Linux
 
+> https://help.netv2.top/#/README
+>
+> 下载链接：
+>
+> https://airnet.lanzoue.com/izSbF0p89l1a
+
+## 被遗弃的方法
 > **[下载和简单使用]** : https://blog.iswiftai.com/posts/clash-linux/
 >
 > **[搭建订阅转服务前后端]** : https://blog.iswiftai.com/posts/docker-subscription-converter/
@@ -11,7 +18,6 @@
 
 运行./clash
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-
 
 ## 访问huggingface出现301 
 https://blog.csdn.net/taipoucha5799/article/details/109490041
