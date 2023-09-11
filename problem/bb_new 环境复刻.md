@@ -123,3 +123,9 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 > https://www.nvidia.cn/geforce/drivers/
 > 
 > https://zhuanlan.zhihu.com/p/463656273
+
+## 5.
+
+## 6. 仿真
+### [Err] [REST.cc:205] Error in REST request
+> https://blog.csdn.net/qq_43802597/article/details/97996255
