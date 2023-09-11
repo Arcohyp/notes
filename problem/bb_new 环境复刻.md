@@ -124,7 +124,12 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 > 
 > https://zhuanlan.zhihu.com/p/463656273
 
-## 5.
+## 5. 修改模型尺寸
+> xarm6.urdf.xacro
+>
+> xarm6_robot.urdf.xacro
+
+参考坐标系是世界坐标系，具体与小车如何绑定，××应该××在其他文件当中
 
 ## 6. 仿真
 ### [Err] [REST.cc:205] Error in REST request
