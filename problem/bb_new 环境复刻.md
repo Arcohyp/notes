@@ -141,3 +141,11 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 
 ### Spawn service failed
 > https://blog.csdn.net/qq_40113966/article/details/120442227
+
+### ERROR: cannot launch node of type [yocs_virtual_sensor/yocs_virtual_sensor_node]: Cannot locate node of type [yocs_virtual_sensor_node] in package [yocs_virtual_sensor]. Make sure file exists in package path and permission is set to executable (chmod +x)
+
+### ImportError: No module named rospy_message_converter
+	sudo apt install python-pip
+ 	pip install rospy-message-converter
+
+### IOError: Path "." is neither a directory containing a "package.xml" file nor a file
