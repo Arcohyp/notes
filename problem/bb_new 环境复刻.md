@@ -3,7 +3,7 @@
 - 系统：Ubuntu 18.04 LTS
 - 基本软件：steam++，vscode，baiduwangpan，sogoupinyin
 
-- vim，net-tools,etc 前4命令 
+- vim，net-tools，etc 前4命令 
 > https://blog.csdn.net/yzf279533105/article/details/105101275
 
 - 一键安装ros，rosdep
