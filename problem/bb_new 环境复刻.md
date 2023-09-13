@@ -149,6 +149,9 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 	sudo apt install python-pip
  	pip install rospy-message-converter
 
+这个玩意装过了
+
+
 ### IOError: Path "." is neither a directory containing a "package.xml" file nor a file
 
 ## 2) 执行 pick and place 
