@@ -136,6 +136,7 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
 参考坐标系是世界坐标系，具体与小车如何绑定，*应该*在其他文件当中
 
 ## 6. 仿真
+## 1) 执行底盘的话问题比较多，很多没解决
 ### [Err] [REST.cc:205] Error in REST request
 > https://blog.csdn.net/qq_43802597/article/details/97996255
 
@@ -149,3 +150,27 @@ intel nuc使用***F2***进入bios界面，当然也可以直接使用***F10***�
  	pip install rospy-message-converter
 
 ### IOError: Path "." is neither a directory containing a "package.xml" file nor a file
+
+## 2) 执行 pick and place 
+### 找不到 *pose_base_controller/pose_base_controller_gazebo* 
+> https://github.com/ros-planning/navigation_experimental/tree/melodic-devel
+下载上面的，放到src里面
+
+	catkin_make
+ 	source devel/setup.bash
+
+pose_base_controller_gazebo.launch文件修改type
+>   <node type="pose_base_controller" pkg="pose_base_controller" name="pose_base_controller" output="screen">
+
+### Could not find a package configuration file provided by "SBPL" with any of   the following names: 
+	sudo apt-get install ros-melodic-sbpl
+
+### [gazebo-2] process has died [pid 7920, exit code 255.....“的问题
+
+使用Ctrl+C结束当前运行，然后输入
+
+	killall gzserver
+
+直接关掉也行，但还是需要source
+
+## 以上
