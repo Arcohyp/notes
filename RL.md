@@ -29,6 +29,7 @@
 
 - **Temporal Difference (TD)**: Learning at each step. With Temporal Difference Learning, we update the value function (or policy function) at each step without requiring a complete episode.
 
+## Deep Q-Learning
 - **Tabular Method**: Type of problem in which the state and action spaces are small enough to approximate value functions to be represented as arrays and tables. Q-learning is an example of tabular method since a table is used to represent the value for different state-action pairs.
 
 - **Deep Q-Learning**: Method that trains a neural network to approximate, given a state, the different Q-values for each possible action at that state. It is used to solve problems when observational space is too big to apply a tabular Q-Learning approach.
