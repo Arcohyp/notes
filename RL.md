@@ -50,7 +50,5 @@
 - **Fixed Q-Target**: In order to calculate the **Q-Target** we need to estimate the discounted optimal **Q-value** of the next state by using Bellman equation. The problem is that the same network weights are used to calculate the **Q-Target** and the **Q-value**. This means that everytime we are modifying the **Q-value**, the **Q-Target** also moves with it. To avoid this issue, a separate network with fixed parameters is used for estimating the Temporal Difference Target. The target network is updated by copying parameters from our Deep Q-Network after certain C steps.
 
 - **Double DQN**: Method to handle overestimation of **Q-Values**. This solution uses two networks to decouple the action selection from the target Value generation:
-
--- **DQN Network** to select the best action to take for the next state (the action with the highest **Q-Value**)
-
--- **Target Network** to calculate the target **Q-Value** of taking that action at the next state. This approach reduces the **Q-Values** overestimation, it helps to train faster and have more stable learning.
+  - **DQN Network** to select the best action to take for the next state (the action with the highest **Q-Value**)
+  - **Target Network** to calculate the target **Q-Value** of taking that action at the next state. This approach reduces the **Q-Values** overestimation, it helps to train faster and have more stable learning.
