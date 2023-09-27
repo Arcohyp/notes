@@ -52,4 +52,5 @@
 - **Double DQN**: Method to handle overestimation of **Q-Values**. This solution uses two networks to decouple the action selection from the target Value generation:
 
 -- **DQN Network** to select the best action to take for the next state (the action with the highest **Q-Value**)
+
 -- **Target Network** to calculate the target **Q-Value** of taking that action at the next state. This approach reduces the **Q-Values** overestimation, it helps to train faster and have more stable learning.
