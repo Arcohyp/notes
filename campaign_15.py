@@ -2,6 +2,24 @@ from module.logger import logger
 from module.map.map_base import CampaignMap
 from module.map.map_grids import RoadGrids, SelectedGrids
 
+# class CampaignBase derivatived from CampaignUI, Map and AutoSearchCombat
+# It has methods as below:
+# 1.battle_default()
+# 2.battle_boss()
+# 3.battle_fuction() 
+# 1)battle with poor map data
+# 2)clear_all
+# 3)poor map data & clear_all is false
+# 4.execute_a_battle()
+# 5.run()
+# 6._map_battle()
+# 7.auto_search_execute_a_battle()
+
+
+
+
+
+
 MAP = CampaignMap('15-4')
 MAP.shape = 'K9'
 MAP.camera_data = ['D2', 'D5', 'D7', 'H2', 'H5', 'H7']
