@@ -1,5 +1,12 @@
 import re  
-  
+
+# 不要用不信任的bib生成软件，因为它们的格式很有可能会有问题
+# 只能使用谷歌学术上下载的bibtex
+
+# 以下代码的作用是提取bib格式中的referenceID，即需要在tex正文中使用的'\cite{}'内的字符串
+# 并将字符串规格化为'\cite{referenceID}'格式输出到txt文件中
+# 只需要复制粘贴对应即可快速填充引用
+
 def extract_cite_keys(bib_file_path):  
     with open(bib_file_path, 'r', encoding='utf-8') as file:  
         content = file.read()  
