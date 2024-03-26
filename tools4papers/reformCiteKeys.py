@@ -4,6 +4,10 @@ import re
 # 只能使用谷歌学术上下载的bibtex
 # https://scholar.scholar-xm.top/
 
+# 你需要做的流程
+# 把你的所有需要引用的参考文献的bib按照引用顺序放在同一个bib文件内
+# 修改路径
+
 # 以下代码的作用是提取bib格式中的referenceID，即需要在tex正文中使用的'\cite{}'内的字符串
 # 并将字符串规格化为'\cite{referenceID}'格式输出到txt文件中
 # 只需要复制粘贴对应即可快速填充引用
